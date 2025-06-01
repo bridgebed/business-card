@@ -6,6 +6,7 @@ body {
     to your card.
     */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #aec3b0;
 }
 
 .avatar {
@@ -48,10 +49,7 @@ body {
     overflow: hidden; /* asegura que el ::before no se desborde */
 }
 
-.card-v2 h2,
-.card-v2 p {
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8); /* borde blanco suave */
-}
+
 
 .card-v2::before {
     content: "";
